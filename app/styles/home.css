@@ -1,0 +1,72 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #2f3241;
+}
+
+header {
+  background: url("../assets/sm_var_1.png");
+  background-size: cover;
+  height: 100dvh;
+  padding-inline: 3rem;
+  color: #ffffff99;
+}
+
+.company-link {
+  font-size: 2rem;
+  margin-block-start: 3rem;
+  margin-block-end: 25dvh;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.company-link:visited,
+.company-link:focus,
+.company-link:active {
+  color: #ffffff99;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #ffffff80;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #ffffff99;
+}
+
+img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+#founders {
+  background: #2f3241;
+  padding-block-start: 8rem;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: #74b1be60;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  h2 {
+    max-width: 35dvw;
+  }
+}
